@@ -35,6 +35,7 @@ if setupContent[0] == "0":
 
     name = input("Enter name to use: ")
     setupFile.write(f"{name}\n")
+    setupContent = setupFile.readlines() # Needed to replace "0" with "{name}"
 
 # Normal run
 
