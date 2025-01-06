@@ -6,4 +6,4 @@ todo is a small windows-only project I made to help with keeping track of ideas 
 todo stores a short list of strings, or "ideas", and shows them to you each time you log in.
 
 ## setup
-There isn't a setup for todo, so if you want to use this, you'll have to edit code manually to fit with where you're storing todo. All that has to change is the file paths to the todo directory, and todo should work fine. Improvements on this will come soon as I work on this more.
+To set up todo, store all todo program files under one folder (todo folder should be on the same level as time.txt). Run todo.py to start setup, and add a shortcut to todo.py into startup programs if you want this to run on startup.
